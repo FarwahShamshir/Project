@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    border: 2px solid rgb(255, 155, 33);
+    background-color: rgb(242, 151, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+
+}
+
+.navbar img {
+    margin-left: 22px;
+}
+
+
+.firstsection {
+    display: flex;
+   
+    margin-top: 135px;
+    animation:reveal  5s linear  infinite;
+    
+   
+}
+
+
+@keyframes reveal {
+    0% {
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+    }
+    8.33% {
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%); 
+    }
+    16.66%, 83.33% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
+    }
+    91.66% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    100% {
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%); 
+    }
+}
+.firstsection img {
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 267px;
+    position: relative;
+    margin-bottom: 0px;
+   
+}
+
+
+
+.right {
+    width: 85%;
+    
+}
+.right h1{
+    margin-top: 63px;
+    margin-left: -23px;
+    font-weight: bold;
+    font-size: 45px;
+    color: #284087;
+}
+.right p{
+    margin-left: -2px;
+}
+
+.left {
+    width: 50%;
+  
+   
+    
+}
+.param{
+    margin-left: -170px;
+    margin-bottom: 12px;
+    padding-bottom: 23px;
+    margin-top: 228px;
+    padding: 7px;
+    
+ }
+ .param h1{
+    font-family: "myriad-pro" sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px;
+    font-size: 30px;
+}
+ .param p{
+    font-family: "myriad-pro" sans-serif;
+  
+  
+}
+ 
+
+.secSection {
+    background-color: #284087;
+    color: rgb(241, 241, 241);
+
+    display: flex;
+    
+}
+
+.secSection a img {
+    margin-right: 13px;
+   
+   
+}
+
+.secSection h1 {
+    margin-left: 360px;
+    margin-top: 97px;
+    font-family: "myriad-pro" sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.letter h1{
+    color: #284087;
+}
+    
+
+
+
+
+.secSection h5 {
+    margin-left: 364px;
+    margin-top: 21px;
+    font-family: "myriad-pro" sans-serif;
+    font-weight: lighter;
+   text-align: justify;
+   line-height: 1.5;
+   font-size: 22px;
+    
+    
+}
+
+
+.newspaper1 {
+    width: 30%;
+    padding-left: 158px;
+    margin-left: 142px;
+    margin-top: 72px;
+    border-bottom: 2px solid white;
+    font-family: "myriad-pro" sans-serif;
+    
+  
+  
+    
+  
+  
+   
+}
+.newspaper2 {
+    width: 30%;
+    padding-bottom: 86px;
+    margin-top: 6px;
+    margin-left: -172px;
+   
+ 
+  
+    
+   
+}
+::placeholder { 
+    color: white;
+    font-family: "myriad-pro" sans-serif;
+    font-size: 12pt;
+  
+  }
+  
+.newspaper1 input{
+    margin-left: -146px;
+    margin-bottom: 25px;
+    border: none;
+    outline: none;
+    background: none;
+
+  
+   
+}
+
+.new2 input{
+    margin-left: -9px;
+    margin-bottom: -20px;
+   border-bottom: 2px solid white;
+   color: azure;
+   padding-top: 38px;
+
+    border: none;
+    outline: none;
+    background: none;
+
+}
+
+.button-sendhere {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 43px;
+    margin-top: 510px;
+    margin-left: -256px;
+    background-color: #DC9322;
+}
+
+
+
+/* .newspaper3{
+  
+   
+    
+    
+
+} */ */
+
+
+
+
+
+
+.fourthSection {
+ 
+    display: flex;
+
+}
+
+
+.pic1 {
+   
+   
+    margin-left: 846px;
+}
+.fourthSection h1{
+    margin-left: 846px;
+    font-family: "myriad-pro" sans-serif;
+    font-size: 30pt;
+
+}
+.fourthSection h6{
+    margin-left: 825px;
+    font-family: "myriad-pro" sans-serif;
+    font-size: 12pt;
+
+}
+.pic2 {
+     
+    margin-left: 681px;
+    margin-top: 76px;
+    
+}
+
+.overlay3{
+    position: absolute;
+    margin-left: -324px;
+    margin-top: -37px;
+   
+}
+
+.overlay4 {
+    position: absolute;
+    margin-left: -112px;
+    margin-top: 114px;
+    
+    animation: moveIcons 10s linear infinite;
+   
+}
+
+
+.overlay5 {
+    position: absolute;
+    margin-left: -12px;
+    margin-top: 166px;
+    
+    animation: moveIcons 10s linear infinite;
+    
+    
+}
+@keyframes moveIcons {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.overlay6 {
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 232px;
+   
+    
+
+}
+.overlay66{
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 232px;
+
+}
+
+
+ .overlay13 {
+
+    position: absolute;
+    margin-top: 678px;
+    margin-left: 30px;
+ }
+   
+
+
+.overlay14 {
+    position: absolute;
+    margin-top: 780px;
+    margin-left: 320px;
+
+}
+.text2 h2{
+    position: absolute;
+    margin-top: 178px;
+    font-family: "myriad-pro";
+    margin-left: -69px;
+}
+    
+
+.text2 h1{
+    position: absolute;
+    margin-top: 244px;
+    margin-left: -76px;
+    color: #284087;
+    font-size: 34px;
+    font-family: "myriad-pro";
+}
+
+
+
+.btn {
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 26px;
+    padding: 12px 38px;
+    background-color: #DC9322;
+    margin-top: 13px;
+    margin-left: -165px;
+}
+
+.down{
+    border: 2px solid rgb(22, 2, 2);
+    background-color: blueviolet;
+}
+.last{
+    /* border: 2px solid red; */
+    display: flex;
+    position: static;
+    margin-top: 912px;
+    
+}
